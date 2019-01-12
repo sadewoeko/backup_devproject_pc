@@ -1,0 +1,194 @@
+
+/* --------- Common Styles --------- */
+
+.login-section .title {
+	font-size: 22px;
+	margin-bottom: 37px;	
+}
+.login-section input {
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #545454;
+	font-family: 'Poppins';
+	font-size: 13px;
+	font-weight: 600;
+	height: initial;
+	margin-bottom: 20px;
+	padding: 18px 15px;
+	width: 100%;
+}
+.login-section input::-webkit-input-placeholder {
+	color: #b2b2b2;
+	font-size: 13px;
+}
+.login-section input:-moz-placeholder {
+	color: #b2b2b2; 
+	font-size: 13px; 
+}
+
+.login-section input::-moz-placeholder { 
+	color: #b2b2b2;
+	font-size: 13px;  
+}
+
+.login-section input:-ms-input-placeholder {  
+	color: #b2b2b2;  
+	font-size: 13px;
+}
+.login-section input[type="submit"] {
+	background: #dd5a66;
+	color: #333;
+	font-weight: 700;
+	height: 60px;
+	line-height: 65px;
+	max-height: initial;
+	padding: 0;
+	width: 100%;
+}
+.login-section input[type="submit"]:hover {
+	background: #333;
+	color: #ffffff;
+}
+p.checkbox {
+	color: #a6a6a6;
+	font-family: 'Yantramanav';
+	font-size: 15px;
+	margin: 0;
+	padding-left: 20px;
+	position: relative;
+	width: 100%;
+}
+p.checkbox a {
+	border-bottom: 1px solid #808080;
+	border-bottom-style: dotted;
+	color: #808080;
+}
+.login-section input[type="checkbox"] {
+	border: 1px solid #e7e7e7;
+	margin: 0;
+	height: 12px;
+	width: 12px;
+	position: absolute;
+	top: 5px;
+	left: 0;
+
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+.login-social {
+	clear: both;
+}
+.login-social button {
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 600;
+	height: 60px;
+	line-height: 65px;
+	margin-top: 20px;
+	max-height: initial;
+	padding: 0;
+	width: 100%;
+}
+.login-social .facebook {
+	background: #3b5998;
+}
+.login-social .twitter {
+	background: #55acee;
+}
+
+
+/* --------- Sign IN --------- */
+
+.sign-in {
+	padding: 40px 30px;
+}
+.sign-in .title {
+	color: #545454;
+	font-size: 18px;
+}
+.sign-in .title:before,
+.sign-in .title:after,
+.sign-in .title span:before,
+.sign-in .title span:after {
+	content: '';
+	display: none;
+}
+
+
+/* ---------- Sign Up ----------- */
+
+.sign-up {
+	padding-left: 30px;
+}
+.sign-up form {
+	padding-top: 6px;
+}
+.sign-up form p {
+	display: inline-block;
+	margin-right: 4px;
+	width: 49%;
+}
+.sign-up form input {
+	border: 1px solid #e7e7e7;
+	padding: 22px 15px 18px;
+}
+.sign-up form input:focus {
+	border: 1px solid #e7e7e7;
+}
+.sign-up form input[type="submit"] {
+	border: none;
+}
+.sign-up p.checkbox {
+	margin-top: 20px;
+}
+.sign-up .login-social button:first-child {
+	margin-top: 0;
+}
+.sign-up .login-social button:nth-child(odd) {
+	margin-right: 0;
+}
+
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 1200px) {
+	.sign-up form p {
+		margin-right: 3px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.sign-up {
+		padding: 60px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.login-social button,
+	.login-section form input[type="submit"] {
+		line-height: 60px !important;
+		max-height: initial !important;
+		padding: 2px 25px !important;
+		width: 100% !important;
+	}
+	.sign-up form p {
+		margin: 0;
+		width: 100% !important;
+	}
+	.sign-up p.checkbox {
+		margin: 0 0 20px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.sign-in {
+		padding: 20px 15px;
+	}
+}

@@ -1,0 +1,125 @@
+
+/* ------- Contact Section -------- */
+
+.contact-section .item-icon {
+	background: #e0d2a2;
+	border-radius: 50%;
+	color: #333;
+	font-size: 32px;
+	height: 100px;
+	width: 100px;
+	line-height: 105px;
+	margin: 0 auto 30px;
+	text-align: center;
+}
+.contact-section .item-title {
+	padding-bottom: 18px;
+}
+.contact-section .item-details span {
+	color: #808080;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	line-height: 25px;
+}
+.contact-section .item-details span a {
+	color: #808080;
+	display: block;
+}
+
+/* -------- Form Section -------- */
+
+.contact-form {
+	padding-top: 60px;
+}
+.contact-input-fields {
+	margin: 0 -15px;
+}
+.contact-form p {
+	margin-top: 25px;
+	text-align: left;
+}
+.contact-input-fields p {
+	display: inline-block;
+	padding: 0 15px;
+	width: 33%;
+}
+.contact-form label {
+	color: #808080;
+	display: inline-block;
+	font-family: 'Poppins';
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.contact-form .wpcf7-form-control {
+	background: #f2f2f2;
+	border-radius: 0;
+	border: none;
+	margin-top: 6px;
+	padding: 18px 15px;
+	width: 100%;
+}
+.contact-form .rating {
+	float: right;
+}
+.contact-form .rating .fa {
+	color: #ffc051;
+}
+.contact-form textarea {
+	height: 240px;
+}
+.contact-form .wpcf7-submit {
+	background: #e0d2a2;
+	color: #333;
+	font-family: 'Poppins';
+	font-size: 13px;
+	font-weight: 600;
+	max-width: 170px;
+	height: 52px;
+	line-height: 56px;
+	padding: 0;
+	text-transform: uppercase;
+}
+.contact-form .wpcf7-submit:hover {
+	background: #333;
+	color: #e0d2a2;
+}
+
+.google-map-container {
+	height: 480px;
+}
+
+
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 992px) {
+	.contact-section .item {
+		margin: 30px 0;
+	}
+	.google-map-container {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.contact-input-fields {
+		margin: 0;
+	}
+	.contact-input-fields p {
+		padding: 0;
+		width: 100%;
+	}
+	.contact-form textarea {
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.contact-form textarea {
+		height: 150px;
+	}
+	.google-map-container {
+		height: 300px;
+	}
+}

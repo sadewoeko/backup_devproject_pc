@@ -1,0 +1,167 @@
+
+/* ---------- Pricing Table Common Styles ----------- */
+
+.pricing-table .item {
+	display: inline-block;
+	width: 100%;
+}
+.pricing-table .item-top {
+	padding: 56px 0 0;
+	position: relative;
+	overflow: hidden;
+
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;		
+}
+.pricing-table .item-title {
+	color: #fff;
+	padding-bottom: 36px;
+}
+.pricing-table .item-price {
+	background: #fff;
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
+	padding-top: 35px;
+	position: relative;
+	z-index: 1;
+}
+.pricing-table .currency {
+	font-size: 18px;
+	margin: 0;
+	position: absolute;
+	top: 35px;
+	left: 21px;
+}
+.pricing-table .price {
+	font-size: 32px;
+	font-weight: 700;
+}
+.pricing-table .duration {
+	color: #808080;
+	display: block;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: -2px;
+	text-transform: capitalize;
+}
+.pricing-table .item-top:before {
+	content: "";
+	position: absolute;
+	left: -115px;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #fff;
+	border-left: 380px solid transparent;
+}	
+.pricing-table .item-middle {
+	padding: 45px 0;
+}
+.pricing-table .item-middle span {
+	color: #808080;
+	display: block;
+	font-family: 'Yantramanav';
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 23px;
+	padding: 8px 0;
+	text-transform: uppercase;
+}
+.pricing-table .item-bottom .btn {
+	width: 100%;
+}
+
+.pricing-table-1 .item.active .item-top,
+.pricing-table-1 .item:hover .item-top {
+	background: #e0d2a2;
+}
+
+
+/* ---------- Pricing Table 01 ----------- */
+
+.pricing-table-1 .item-bottom {
+	border: 2px solid  #f0f0f0;
+	padding: 0;
+
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;	
+}
+.pricing-table .item:hover .item-bottom,
+.pricing-table-1 .item.active .item-bottom {
+	border-color: #e0d2a2;
+}
+.pricing-table-1 .item-bottom .btn {
+	background: #fff;
+	max-height: 60px;
+	padding: 5px 0;
+}
+.pricing-table-1 .item:hover .item-bottom .btn,
+.pricing-table-1 .item.active .item-bottom .btn {
+	background: #e0d2a2;
+	color: #333;
+}
+
+.pricing-table-1 .item {
+	position: relative;
+}
+.pricing-table-1 .item-top {
+	background: #333;
+}
+.pricing-table-1 .item.active .btn {
+	width: 100% !important;
+}
+
+
+/* ---------- Pricing Table 02 ----------- */
+
+
+.pricing-table-2 .item {
+	background: #fff;
+}
+.pricing-table-2 .item-top:before {
+	border-top: 100px solid transparent;
+	border-left: 370px solid #fff;
+	border-bottom: 100px solid transparent;
+	bottom: -102px;
+	left: 0;
+}	
+.pricing-table-2 .item-bottom {
+	padding: 0 40px 60px;
+}
+.pricing-table-2 .item.active .item-bottom .btn,
+.pricing-table-2 .item:hover .item-bottom .btn {
+	background: #333;
+	color: #fff;
+}
+
+
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 1200px) {
+	.pricing-table-2 .item-bottom {
+		padding: 0 15px 30px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.pricing-table .item {
+		margin: 15px 0;
+	}	
+	.pricing-table-1 .item-top:before {
+		border-bottom: 170px solid #fff;
+		border-left: 992px solid transparent;
+	}
+	.pricing-table-2 .item-top:before {
+		border-left: 992px solid #fff;
+	}
+}

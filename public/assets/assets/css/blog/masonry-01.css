@@ -1,0 +1,103 @@
+
+/* -------- Masonry Blog --------- */
+
+.masonry-posts article {
+	margin-bottom: 40px !important;
+}
+.masonry-posts .entry-thumbnail {
+	margin-bottom: 35px !important;
+}
+.masonry-posts .entry-title {
+	font-size: 17px;
+}
+.masonry-posts .entry-meta {
+	color: #a6a6a6;
+	font-family: 'Yantramanav';
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 13px;
+}
+.masonry-posts .entry-meta span {
+	padding: 0 5px 0 25px;
+	position: relative;
+}
+.masonry-posts .entry-meta span:last-child {
+	padding-right: 0;
+}
+.masonry-posts .entry-meta a {
+	color: #a6a6a6;
+}
+.masonry-posts .entry-meta i {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.masonry-posts article.type-post .description {
+	margin-top: 25px !important;
+}
+.masonry-posts article .btn {
+	background: #fff !important;
+	color: #333;
+	margin-top: 15px !important;
+	text-align: left;
+}
+.masonry-posts article .iframe {
+	font-size: 30px !important;
+	height: 60px !important;
+	width: 60px !important;
+	line-height: 60px !important;
+}
+.masonry-posts .link {
+	padding: 37px 30px;
+	word-break: break-all;
+}
+.masonry-posts .link-title {
+	font-family: 'Poppins';
+	font-size: 18px;
+	line-height: 27px;
+	padding-bottom: 5px;
+}
+.masonry-posts .format-quote .entry-thumbnail {
+	padding: 50px 30px;
+}
+.masonry-posts .post-quote {
+	font-size: 25px;
+	letter-spacing: -0.5px;
+	line-height: 38px;
+}
+.masonry-posts .post-quote:before {
+	bottom: -17px;
+	font-size: 40px;
+}
+.masonry-posts .format-quote .name {
+	padding-top: 28px;
+}
+.bg-light-blue {
+	background: #c5e9f3 !important;
+}
+.masonry .pagination {
+	margin-top: 100px;
+}
+.masonry-posts .post-slider .carousel-indicators {
+	bottom: 17px;
+	left: initial;
+	right: 30px;
+	text-align: right;
+}
+.masonry-posts .post-slider .carousel-indicators li {
+	background: #c5c5c5;
+	border: none !important;
+	height: 12px !important;
+	width: 12px !important;
+	margin: 0 1px !important;
+}
+.masonry-posts .post-slider .carousel-indicators li.active {
+	background: #fff;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+	.masonry-posts .col-md-4.col-sm-6 {
+		width: 50%;
+	}
+}

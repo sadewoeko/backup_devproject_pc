@@ -1,0 +1,99 @@
+
+/* -------- Grid Blog --------- */
+
+.grid-posts article {
+	margin-bottom: 40px !important;
+}
+.grid-posts .entry-thumbnail {
+	margin-bottom: 35px !important;
+}
+.grid-posts .entry-title {
+	font-size: 17px;
+}
+.grid-posts .entry-meta {
+	color: #a6a6a6;
+	font-family: 'Yantramanav';
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 13px;
+}
+.grid-posts .entry-meta span {
+	padding: 0 5px 0 25px;
+	position: relative;
+}
+.grid-posts .entry-meta span:last-child {
+	padding-right: 0;
+}
+.grid-posts .entry-meta a {
+	color: #a6a6a6;
+}
+.grid-posts .entry-meta i {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.grid-posts article.type-post .description {
+	margin-top: 25px !important;
+}
+.grid-posts article .btn {
+	background: #fff !important;
+	color: #333;
+	margin-top: 15px !important;
+	text-align: left;
+}
+.grid-posts article .iframe {
+	font-size: 30px !important;
+	height: 60px !important;
+	width: 60px !important;
+	line-height: 60px !important;
+}
+.grid-posts .link {
+	padding: 37px 30px;
+	word-break: break-all;
+}
+.grid-posts .link-title {
+	font-family: 'Poppins';
+	font-size: 18px;
+	line-height: 27px;
+	padding-bottom: 5px;
+}
+.grid-posts .format-quote .entry-thumbnail {
+	padding: 50px 30px;
+}
+.grid-posts .post-quote {
+	font-size: 25px;
+	letter-spacing: -0.5px;
+	line-height: 38px;
+}
+.grid-posts .post-quote:before {
+	bottom: -17px;
+	font-size: 40px;
+}
+.grid-posts .format-quote .name {
+	padding-top: 28px;
+}
+.bg-light-blue {
+	background: #c5e9f3 !important;
+}
+.masonry .pagination {
+	margin-top: 100px;
+}
+.grid-posts .post-slider .carousel-indicators {
+	bottom: 17px;
+	left: initial;
+	right: 30px;
+	text-align: right;
+}
+.grid-posts .post-slider .carousel-indicators li {
+	background: #c5c5c5;
+	border: none !important;
+	height: 12px !important;
+	width: 12px !important;
+	margin: 0 1px !important;
+}
+.grid-posts .post-slider .carousel-indicators li.active {
+	background: #fff;
+}
+.grid .pagination {
+	margin-top: 60px;
+}

@@ -1,0 +1,75 @@
+/* --------- Error Banner --------- */
+
+.error-banner .banner-content {
+	padding: 8% 0;
+	position: relative;
+}
+.error-banner .banner-content:before {
+	content: '404';
+	color: #f2f2f2;
+	font-family: 'Poppins';
+	font-size: 500px;
+	font-weight: 700;
+	position: absolute;
+	z-index: -1;
+	left: 50%;
+	top: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.error-banner .main-title {
+	font-size: 45px;
+	font-weight: 700;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.error-banner .sub-title {
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.error-banner .btn {
+	height: 65px;
+	width: 200px;
+	line-height: 70px;
+	margin-top: 43px;
+	max-height: initial;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.error-banner .banner-content:before {
+		font-size: 400px;
+	}
+	.error-banner .sub-title {
+		font-size: 25px;
+		line-height: 40px;
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.error-banner .banner-content:before {
+		font-size: 300px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.error-banner .banner-content:before {
+		font-size: 150px;
+	}
+	.error-banner .main-title {
+		font-size: 30px;
+	}
+	.error-banner .sub-title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+
+

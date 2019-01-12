@@ -1,0 +1,205 @@
+/* -------- Comming Soon ------- */
+
+.comming-soon .section-padding {
+    padding: 120px 0;
+}
+.comming-soon .banner-logo {
+    padding-bottom: 90px;
+    position: relative;
+}
+.comming-soon .banner-logo:before {
+    content: '';
+    background-color: rgba( 255, 255, 255, 0.302 );
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 150px;
+    height: 5px;
+    margin-left: -75px;
+    position: absolute;
+}
+.comming-soon .sub-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 34px 0 5px;
+}
+.comming-soon .main-title {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.comming-soon .description {
+    color: #b2b2b2;
+    font-size: 18px;
+    max-width: 730px;
+    margin: 20px auto;
+}
+
+.time-box {
+    display: inline-block;
+    margin: 0 12px;
+    padding: 30px 0 0;
+    position: relative;
+    text-align: center;
+}
+.time-number {
+    border: 4px solid rgba( 255, 255, 255, 0.302 );
+    border-radius: 50%;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+}
+.time-number .digit {
+    color: #ffffff;
+    display: inline-block; 
+    font-family: 'Poppins';
+    font-size: 45px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 46px;
+    margin-top: 40px;
+    overflow: hidden;
+    width: 28px;
+}
+.time-name {
+    color: #ffffff;
+    display: block;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 700;
+    padding: 30px 0 0;
+    text-transform: uppercase;
+}
+.hours_dash .digit:first-child,
+.minutes_dash .digit:first-child,
+.seconds_dash .digit:first-child {
+    display: none;
+}
+
+.subscribe-form {
+    max-width: 555px;
+    margin: 0 auto 15px;
+    position: relative;
+}
+.subscribe-form input[type="email"] {
+    background: transparent;
+    border: 4px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    font-family: 'Yantramanav';
+    font-size: 15px;
+    height: initial;
+    padding: 15px 145px 15px 15px;
+    text-transform: initial;
+}
+.subscribe-form input[type="submit"] {
+    border: none;    
+    border-radius: 0;
+    max-height: initial;
+    right: 0;
+    top: 0;
+    line-height: 1;
+    padding: 25px 25px 21px;
+    position: absolute;
+    width: initial;
+}
+.subscribe-form ::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 400;
+    text-transform: initial;
+}
+
+.subscribe-form :-moz-placeholder { /* Firefox 18- */
+    color: #fff; 
+    font-weight: 400;
+    text-transform: initial; 
+}
+
+.subscribe-form ::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff; 
+    font-weight: 400;
+    text-transform: initial; 
+}
+
+.subscribe-form :-ms-input-placeholder {  
+    color: #fff; 
+    font-weight: 400;
+    text-transform: initial; 
+}
+
+.social-share {
+    padding-bottom: 85px;
+}
+.social-share a {
+    background: rgba( 255, 255, 255, 0.302 );
+    color: #fff;
+    display: inline-block;
+    font-size: 19px;
+    height: 45px;
+    line-height: 48px;
+    width: 45px;
+    margin: 15px 3px;
+}
+.social-share a:hover {
+    background: #e0d2a2;
+    color: #333;
+}
+.comming-soon .copyright {
+    color: #d9d9d9;
+    font-family: 'Yantramanav';
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 33px;
+}
+.comming-soon .copyright a {
+   color: #d9d9d9;   
+}
+
+
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 767px) {
+    .comming-soon .section-padding {
+        padding: 60px 0;
+    }
+    .comming-soon .banner-logo {
+        padding-bottom: 30px;
+    }
+    .comming-soon .sub-title {
+        font-size: 22px;
+    }
+    .comming-soon .main-title {
+        font-size: 28px;
+    }
+    .comming-soon .subscribe-form input[type="submit"] {
+        padding: 0 30px !important;
+    }
+    .time-number {
+        width: 90px;
+        height: 90px;
+        line-height: 75px;
+    }
+    .time-number .digit {
+        font-size: 30px;
+        height: 32px;
+        margin: 0;
+        width: 20px;
+        vertical-align: middle;
+    }
+    .time-name {
+        padding-top: 15px;
+    }
+    .social-share a {
+        font-size: 16px;
+        height: 40px;
+        line-height: 44px;
+        width: 40px;
+        margin: 15px 2px;
+    }
+}

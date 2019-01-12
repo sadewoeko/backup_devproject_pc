@@ -1,0 +1,219 @@
+.fullpage-wrapper {
+	padding: 0 60px;
+}
+.fullpage-wrapper .section {
+	position: relative;
+}
+.fullpage-wrapper .section .header-03 {
+	background: #fff;
+	left: 0;
+	top: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+.fullpage-wrapper .header-03 .navbar-nav>li:last-child {
+	padding-right: 0;
+}
+.section footer.site-footer {
+	background: #fff;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;	
+}
+.parallax-section {
+	background: no-repeat fixed center top;
+	height: 100vh;
+	position: relative;
+	text-align: center;
+}
+.parallax-overlay {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}
+.parallax-overlay:before {
+	content: '';
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+.parallax-contents {
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	z-index: 2;
+
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.parallax-contents .main-title {
+	color: #fff;
+	font-family: 'Poppins';
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding-top: 35px;
+	text-transform: uppercase;
+}
+.parallax-contents .sub-title {
+	color: #fff;
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	margin: 10px 0 35px;
+}
+.parallax-contents .description {
+	color: #fff;
+	font-size: 18px;
+	max-width: 630px;
+	margin: 8px auto 40px;
+}
+.parallax-contents .btn {
+	width: 200px;
+	max-height: 65px;
+	line-height: 68px;
+}
+.parallax-discount .btn {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.parallax-discount .btn:hover {
+	background: #fff;
+	color: #333;
+}
+.video-title {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+}
+.video-pop {
+	background: #fff;
+	border-radius: 50%;
+	color: #333;
+	font-size: 40px;
+	height: 100px;
+	width: 100px;
+	margin: 90px auto 0;
+	line-height: 100px;
+}
+.video-pop a {
+	color: #333;
+}
+.video-pop:before {
+	content: '';
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	left: -10px;
+	top: -10px;
+	position: absolute;
+	z-index: -1;
+}
+.parallax-texts .btn {
+	background: #fff;
+	border: 2px solid #fff;
+	color: #333;
+}
+.parallax-texts .btn:hover {
+	background: transparent;
+	color: #fff;
+}
+.parallax-testimonial .description {
+	font-size: 33px;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	line-height: 39px;
+	position: relative;
+	text-transform: uppercase;
+}
+.parallax-testimonial .author {
+	color: #fff;
+	font-family: 'Poppins';
+	font-size: 13px;
+	font-weight: 600;
+	position: relative;
+	text-transform: uppercase;
+}
+.parallax-testimonial .author:before,
+.parallax-testimonial .author:after {
+	content: '';
+	background: #fff;
+	height: 2px;
+	width: 6px;
+	top: 50%;
+	margin-top: -1px;
+	position: absolute;
+}
+.parallax-testimonial .author:before {
+	left: -15px;
+}
+.parallax-testimonial .author:after {
+	right: -15px;
+}
+
+
+@media screen and (max-width: 992px) {
+	.fullpage-wrapper {
+		padding: 0;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+	.content-logo {
+		margin: 20px auto 0;
+		max-width: 100px;
+	}
+	.parallax-contents .main-title {
+		font-size: 25px;
+		padding-top: 15px;
+	}
+	.parallax-contents .sub-title {
+		font-size: 25px;
+	}
+	.parallax-contents .description {
+		font-size: 17px;
+		padding: 0 15px;
+	}
+	.parallax-testimonial .description {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+	.parallax-testimonial .parallax-contents {
+		top: 0;
+
+		-webkit-transform: translate(-50%, -18%);
+		-moz-transform: translate(-50%, -18%);
+		-ms-transform: translate(-50%, -18%);
+		-o-transform: translate(-50%, -18%);
+		transform: translate(-50%, -18%);
+	}
+	#fp-nav ul li a span, .fp-slidesNav ul li a span {
+		background: #fff !important;
+		height: 10px !important;
+		width: 10px !important;
+		margin: 0 !important;
+	}
+	#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
+		background: #e0d2a2 !important;
+	}
+}
+

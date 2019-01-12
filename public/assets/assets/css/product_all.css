@@ -1,0 +1,42 @@
+    .item{
+        height:250px;
+        max-height: 270px;
+    }
+    .sale{
+        background: #e32636 !important;
+    }
+    .buy{
+        background: #53da37 !important;
+    }
+    .flag-label{
+        float:left;
+        margin-top:-4px
+    }
+    .flag-sortname{
+        width:30px;
+        height:30px;
+        padding-right:5px
+    }
+    .item-img{
+        height: 200px;
+        width: 200px;
+    }
+    .item-title{
+        font-size:10px;
+    }
+    .shop-products .item-price{
+        font-size:14px; 
+    }
+    .pict-space{
+        height: 285px;
+    }
+    .company-name{
+        font-weight: bold;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 0;
+        font-size: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+    }

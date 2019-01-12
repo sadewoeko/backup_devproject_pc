@@ -1,0 +1,371 @@
+/* --------- Intro --------- */
+
+.intro .col-sm-6:nth-child(2) {
+	padding-left: 45px;
+}
+.intro .description {
+	font-size: 16px;
+	padding: 17px 0 30px;
+}
+.intro ul {
+	margin: 0;
+	padding: 0;
+}
+.intro li {
+	color: #808080;
+	display: block;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	line-height: 37px;
+	padding-left: 33px;
+	position: relative;
+}
+.intro li:before {
+	content: "\e64c";
+	color: #333;
+	font-family: 'themify';
+	font-size: 17px;
+	left: 0;
+	position: absolute;
+}
+
+/* -------- Facts -------- */
+
+.facts {
+	background: #e0d2a2;
+}
+.facts .section-padding {
+	padding: 150px 0;
+}
+.facts .item {
+	padding: 20px 0;
+	position: relative;
+}
+.facts .item:before {
+	content: '';
+	background: #d3c490;
+	height: 100%;
+	width: 2px;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+.facts .col-md-3:last-child .item:before {
+	content: '';
+	display: none;
+}
+.facts .item-icon {
+	color: #262626;
+	font-size: 50px;
+	padding-right: 15px;
+}
+.facts .count-inner {
+	color: #262626;
+	font-size: 35px;
+	font-weight: 400;
+}
+.fact-title {
+	color: #545454;
+	display: block;
+	font-family: 'Poppins';
+	font-size: 16px;
+	padding-top: 12px;
+	text-transform: uppercase;
+}
+
+/* -------- Team -------- */
+
+.member {
+	margin: 0 15px;
+}
+.member-avatar {
+	background: #f3efee;	
+}
+.member .name {
+	color: #545454;
+	display: block;
+	font-family: 'Poppins';
+	font-size: 14px;
+	font-weight: 600;
+	padding: 30px 0 10px;
+	text-transform: uppercase;
+}
+.designation {
+	color: #a4a4a4;
+	display: block;
+	font-size: 14px;
+	font-family: 'Yantramanav';
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	padding-bottom: 18px;
+	text-transform: uppercase;
+}
+.member-social a {
+	color: #b2b2b2;
+	font-size: 15px;
+	padding: 0 5px;
+}
+.team-slider .slick-arrow {
+	top: 50%;
+	margin-top: -50px;
+}
+.team-slider .slick-prev {
+	left: -110px;
+}
+.team-slider .slick-next {
+	right: -110px;
+}
+
+/* --------- Testimonial --------- */
+
+.testimonial-slider {
+	padding: 150px 100px;
+}
+.testimonial-slider .description {
+	color: #808080;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	font-style: italic;
+	letter-spacing: 0.25px;
+	line-height: 28px;
+	padding: 12px 0 25px;
+}
+.client-details .name {
+	color: #545454;
+	display: block;
+	font-family: 'Poppins';
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0 0 10px;
+	text-transform: uppercase;
+}
+.client-details .designation {
+	color: #a4a4a4;
+	display: block;
+	font-size: 14px;
+	font-family: 'Yantramanav';
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	text-transform: lowercase;
+}
+.client-details .designation a {
+	color: #a4a4a4;
+}
+.testimonial-slider .carousel-indicators {
+	bottom: 21%;
+}
+.testimonial-slider .carousel-indicators li {
+	background: #a6a6a6;
+	border: none !important;
+	height: 12px !important;
+	width: 12px !important;
+	margin: 0 1px !important;
+}
+.testimonial-slider .carousel-indicators li.active {
+	background: #d9d9d9;
+}
+
+/* -------- Extra Features -------- */
+
+/* -------- Progress Bars -------- */
+
+.progress-bar-item {
+	padding-right: 15px;
+}
+.thin.progress {
+	background-color: #e5e5e5;
+	box-shadow: none;
+	height: 4px;
+	margin-top: 55px;
+	position: relative;
+	overflow: visible;
+}
+.progress-bar {
+	background-color: #404040;
+	position: relative;
+	font-size: 16px;
+}
+.thin .progress-text,
+.thin .progress-percent {
+	font-family: 'Poppins';
+	position: absolute;
+	top: -25px;
+	font-size: 14px;
+	font-weight: 600;
+	left: 0;
+	color: #333;
+	text-transform: uppercase;
+}
+.thin .progress-percent {
+	right: 0;
+	left: inherit;
+}
+
+/* ------- Accordion ------- */
+
+.panel-group {
+	margin: 0;
+	padding-left: 15px;
+}
+.panel-group .panel {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+.panel-group .panel-heading {
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border: 2px solid #e8e8e8;
+	border-top: none;
+	color: #808080;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	line-height: 27px;
+	padding: 20px 25px;
+}
+.panel-title {
+	color: #545454;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.panel-title a {
+	background: #e0d2a2;	
+	border: 2px solid #e0d2a2;
+	color: #545454;
+	display: block;
+	padding: 20px 50px 20px 25px;	
+	position: relative;
+}
+.panel-group .panel-title a:before {
+	background: #f3efef;
+	color: #545454;
+	font-family: 'themify';
+	font-size: 16px;
+	height: 51px;
+	width: 51px;
+	line-height: 51px;
+	text-align: center;
+	top: 50%;
+	margin-top: -26px;
+	right: 2px;
+	position: absolute;
+}
+.panel-group .panel-title a.collapsed {
+	background: #fff;
+	border-color: #e8e8e8;	
+}
+.panel-group .panel-title a.collapsed:before {
+	content: "\e64b";
+	background: #f3efef;
+}
+.panel-group .panel-title a:before {
+	content: "\e648";
+	background: #e0d2a2;
+	border-color: #e0d2a2;
+}
+
+/* -------- Clients Logo -------- */
+
+.clients-logo-03 .section-padding {
+	padding: 20px 0 200px;
+}
+.clients-logo-03 .item {
+	max-width: initial;
+}
+.clients-logo-03 .item img {
+	max-width: 190px;
+}
+
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 1280px) {
+	.facts .section-padding {
+		padding: 140px 0;
+	}
+	.team-slider .slick-arrow {
+		height: 40px;
+		width: 40px;
+	}
+	.team-slider .slick-next {
+		right: -40px;
+	}
+	.team-slider .slick-prev {
+		left: -40px;
+	}
+	.testimonial-slider {
+		padding: 100px 30px;
+	}
+	.testimonial-slider .carousel-indicators {
+		bottom: 15%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.panel-group {
+		padding-left: 0;
+	}
+	.panel-title a {
+		padding: 20px 50px 20px 15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.facts .section-padding {
+		padding: 100px 0;
+	}
+	.team-slider {
+		padding-top: 60px;
+	}
+	.team-slider .slick-arrow {
+		top: 40px;
+	}
+	.team-slider .slick-next {
+		right: 15px;
+	}
+	.team-slider .slick-prev {
+		left: initial;
+		right: 70px;
+	}
+	.clients-logo-03 .section-padding {
+		padding: 20px 0 140px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.intro img {
+		margin-bottom: 40px;
+	}
+	.facts .section-padding {
+		padding: 60px 0;
+	}
+	.facts .item {
+		margin: 15px 0;
+	}
+	.facts .item:before {
+		content: '';
+		display: none;
+	}
+	.panel-group {
+		padding-top: 40px;
+	}
+	.clients-logo-03 .item img {
+		max-width: 100%;
+	}
+	.clients-logo-03 .section-padding {
+		padding: 20px 0 120px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.team-slider .slick-arrow {
+		margin-top: 70px;
+	}
+}

@@ -1,0 +1,246 @@
+
+.header-05 .category-menu {
+	height: 0;
+	top: 100px;
+	overflow: hidden;
+	opacity: 0;
+}
+.header-05 .shop-category:hover .category-menu {
+	top: 68px;
+	height: auto;
+	opacity: 1;
+	overflow: visible;
+}
+
+/* --------- Intro --------- */
+
+.intro .col-sm-6:nth-child(2) {
+	padding-left: 45px;
+}
+.intro .description {
+	font-size: 16px;
+	padding: 17px 0 30px;
+}
+.intro ul {
+	margin: 0;
+	padding: 0;
+}
+.intro li {
+	color: #808080;
+	display: block;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	line-height: 37px;
+	padding-left: 33px;
+	position: relative;
+}
+.intro li:before {
+	content: "\e64c";
+	color: #333;
+	font-family: 'themify';
+	font-size: 17px;
+	left: 0;
+	position: absolute;
+}
+
+
+/* -------- Extra Features -------- */
+
+/* -------- Progress Bars -------- */
+
+.progress-bar-item {
+	padding-right: 15px;
+}
+.thin.progress {
+	background-color: #e5e5e5;
+	box-shadow: none;
+	height: 4px;
+	margin-top: 55px;
+	position: relative;
+	overflow: visible;
+}
+.progress-bar {
+	background-color: #404040;
+	position: relative;
+	font-size: 16px;
+}
+.thin .progress-text,
+.thin .progress-percent {
+	font-family: 'Poppins';
+	position: absolute;
+	top: -25px;
+	font-size: 14px;
+	font-weight: 600;
+	left: 0;
+	color: #333;
+	text-transform: uppercase;
+}
+.thin .progress-percent {
+	right: 0;
+	left: inherit;
+}
+
+/* ------- Accordion ------- */
+
+.panel-group {
+	margin: 0;
+	padding-left: 15px;
+}
+.panel-group .panel {
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+.panel-group .panel-heading {
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+	border: 2px solid #e8e8e8;
+	border-top: none;
+	color: #808080;
+	font-family: 'Yantramanav';
+	font-size: 16px;
+	line-height: 27px;
+	padding: 20px 25px;
+}
+.panel-title {
+	color: #545454;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.panel-title a {
+	background: #e0d2a2;	
+	border: 2px solid #e0d2a2;
+	color: #545454;
+	display: block;
+	padding: 20px 50px 20px 25px;	
+	position: relative;
+}
+.panel-group .panel-title a:before {
+	background: #f3efef;
+	color: #545454;
+	font-family: 'themify';
+	font-size: 16px;
+	height: 51px;
+	width: 51px;
+	line-height: 51px;
+	text-align: center;
+	top: 50%;
+	margin-top: -26px;
+	right: 2px;
+	position: absolute;
+}
+.panel-group .panel-title a.collapsed {
+	background: #fff;
+	border-color: #e8e8e8;	
+}
+.panel-group .panel-title a.collapsed:before {
+	content: "\e64b";
+	background: #f3efef;
+}
+.panel-group .panel-title a:before {
+	content: "\e648";
+	background: #e0d2a2;
+	border-color: #e0d2a2;
+}
+
+
+/* -------- Clients Logo -------- */
+
+.clients-logo-03 .section-padding {
+	padding: 200px 0;
+}
+.clients-logo-03 .item {
+	max-width: initial;
+}
+.clients-logo-03 .item img {
+	max-width: 190px;
+}
+
+/* -------- Core Services -------- */
+
+.core-services .section-padding {
+	padding-bottom: 148px;
+}
+.core-services .item {
+	margin-bottom: 52px;
+	text-align: left;
+}
+.core-services .item-icon {
+	color: #333; 
+	float: left;
+	font-size: 44px;
+	margin-right: 25px;
+	padding: 0;
+	width: 45px;
+}
+.core-services .item-title {
+	padding-bottom: 20px;
+}
+
+/* ---------- Responsive Styles ----------- */
+
+@media screen and (max-width: 1280px) {
+	.clients-logo-03 .section-padding {
+		padding: 140px 0;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.panel-group {
+		padding-left: 0;
+	}
+	.panel-title a {
+		padding: 20px 50px 20px 15px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.clients-logo-03 .section-padding {
+		padding: 140px 0;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.intro img {
+		margin-bottom: 40px;
+	}
+	.panel-group {
+		padding-top: 40px;
+	}
+	.clients-logo-03 .item img {
+		max-width: 100%;
+	}
+	.clients-logo-03 .section-padding {
+		padding: 100px 0;
+	}
+		.core-services .section-padding {
+		padding-bottom: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header-05 .shop-category:hover .category-menu {
+		top: 52px;
+	}
+		.core-services .item {
+		margin-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.core-services .item-icon {
+		float: none !important;
+	}
+	.core-services .item-details {
+		display: block;
+		padding-top: 20px;
+		width: initial;
+	}
+}
